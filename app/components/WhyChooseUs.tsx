@@ -43,6 +43,13 @@ const content = [
 const WhyChooseUs = () => {
   return (
     <div className='w-full'>
+        
+        <div className="text-center bg-gray-900">
+            <p className='text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>
+                Why Choose Us
+            </p>
+        </div>
+        
         <StickyScroll content={content} />
     </div>
   )
