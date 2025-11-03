@@ -61,7 +61,7 @@ const UpcomingWebinars = () => {
                         {
                             title: webinar.title,
                             description: webinar.description,
-                            link: '/'
+                            link: webinar.slug
                         }
                     ))}
                 />
